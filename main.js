@@ -107,3 +107,5 @@ game.moveDisc(1, 2); // Move top disc from peg 1 to peg 2
 game.moveDisc(3, 2); // Move disc from peg 3 to peg 2
 game.moveDisc(1, 3); // Move top disc from peg 1 to peg 3
 game.moveDisc(2, 3); // Move disc from peg 2 to peg 3
+
+module.exports = game;  // Export the 'game' object for testing accessibility
